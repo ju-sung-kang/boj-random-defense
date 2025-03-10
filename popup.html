@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random BOJ Problem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+            padding: 10px;
+        }
+        select, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        #timer {
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        #problemLink {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>티어 구간 선택</h2>
+
+    <!-- 티어 구간 선택 -->
+    <label for="minTier">최소:</label>
+    <select id="minTier">
+   <!-- <option value="1">브5</option>
+        <option value="2">브4</option>
+        <option value="3">브3</option>
+        <option value="4">브2</option>
+        <option value="5">브1</option> -->
+        <option value="6">실5</option>
+        <option value="7">실4</option>
+        <option value="8">실3</option>
+        <option value="9">실2</option>
+        <option value="10">실1</option>
+        <option value="11">골5</option>
+        <option value="12">골4</option>
+        <option value="13">골3</option>
+        <option value="14">골2</option>
+        <option value="15">골1</option>
+        <option value="16">플5</option>
+        <option value="17">플4</option>
+        <option value="18">플3</option>
+        <option value="19">플2</option>
+        <option value="20">플1</option>
+    </select>
+
+    <label for="maxTier">최대:</label>
+    <select id="maxTier">
+   <!-- <option value="1">브5</option>
+        <option value="2">브4</option>
+        <option value="3">브3</option>
+        <option value="4">브2</option>
+        <option value="5">브1</option> -->
+        <option value="6">실5</option>
+        <option value="7">실4</option>
+        <option value="8">실3</option>
+        <option value="9">실2</option>
+        <option value="10">실1</option>
+        <option value="11">골5</option>
+        <option value="12">골4</option>
+        <option value="13">골3</option>
+        <option value="14">골2</option>
+        <option value="15">골1</option>
+        <option value="16">플5</option>
+        <option value="17">플4</option>
+        <option value="18">플3</option>
+        <option value="19">플2</option>
+        <option value="20">플1</option>
+    </select>
+
+    <button id="getProblemBtn">문제찾기</button>
+    <p id="errorMessage"></p>
+
+    <script src="popup.js"></script>
+</body>
+</html>
